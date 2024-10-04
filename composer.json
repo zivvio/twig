@@ -1,25 +1,24 @@
 {
-    "name": "yiisoft/yii2-twig",
-    "description": "The Twig integration for the Yii framework",
-    "keywords": ["yii2", "twig", "renderer"],
+    "name": "zivvio/twig",
+    "description": "The Twig integration for the Zivvio framework",
+    "keywords": ["twig", "integration"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-twig/issues",
-        "forum": "https://www.yiiframework.com/forum/",
-        "wiki": "https://www.yiiframework.com/wiki/",
-        "irc": "ircs://irc.libera.chat:6697/yii",
-        "source": "https://github.com/yiisoft/yii2-twig"
+        "issues": "https://github.com/zivvio/twig/issues",
+        "source": "https://github.com/zivvio/twig"
     },
     "authors": [
         {
-            "name": "Alexander Makarov",
-            "email": "sam@rmcreative.ru"
+            "name": "Yii Team",
+            "email": "team@yiiframework.com",
+            "homepage": "https://www.yiiframework.com/team",
+            "role": "Founder and project lead"
         }
     ],
     "require": {
-        "php": "^7.2.5|^8.0|^8.1",
-        "yiisoft/yii2": "~2.0.4",
+        "php": ">=8.2.0",
+        "zivvio/zivvio": ">=5.0.0",
         "twig/twig": "~3.9"
     },
     "require-dev": {
@@ -44,7 +43,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-main": "6.0.x-dev"
         },
         "composer-exit-on-patch-failure": true,
         "patches": {
@@ -64,7 +63,7 @@
     "config": {
         "allow-plugins": {
             "cweagans/composer-patches": true,
-            "yiisoft/yii2-composer": true
+            "zivvio/composer": true
         }
     }
 }
