@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": ">=8.2.0",
+        "php": ">=8.2",
         "zivvio/zivvio": ">=5.0.0",
         "twig/twig": "~3.9"
     },
